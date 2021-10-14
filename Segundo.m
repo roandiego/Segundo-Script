@@ -33,3 +33,9 @@ xlabel (Valor de x)
 
 %Etiqueta para y
 xlabel()
+
+clc
+clear
+X= -21.9: 0.001: 21.9;
+Y= X.^2;
+plot (X, Y'r', 'linewidth',2)
