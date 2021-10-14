@@ -17,8 +17,9 @@ clear
 X='29.9: 0.001: 29.9';
 
 % Valor de la funcion 
-f(X,Y);
-f(X-21,9).(Y-27,38);
+function = (x,y);
+function =(x-21,9).(y-27,38);
+disp ( " Valor de la funcion " )
 
 % Funcion a plotear
 f(x)=((X-4).(600/Y - 5));
