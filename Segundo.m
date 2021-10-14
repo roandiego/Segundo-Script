@@ -7,6 +7,7 @@
 % Usage			      :C:/Users/SERVODOR-RNCANT/Documents
 % Notes			      :Requiere aplicacion octave usar en consola preferentemente
 
+
 % Limpiar variables 
 clear
 
@@ -20,22 +21,13 @@ f(x,y);
 f(x-21,9).(y-27,38);
 plot f(x,y);
 
-%Fucion a plotear
-y = 600/y
-
-%Dibujar x,y 
-plot(x,y); 
-
 %Titulo 
-title (Funcion minimo material)
-%Etiqueta para x
-xlabel (Valor de x)
-
-%Etiqueta para y
-xlabel (Valor de y)
-
 clc
 clear
+% titulo
+
+title (['paginas del libro ']);
 X= -21.9: 0.001: 21.9;
 Y= X.^2;
-plot (X, Y'r', 'linewidth',2)
+plot (X, Y, 'r', 'linewidth',2)
+
