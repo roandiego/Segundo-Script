@@ -1,6 +1,6 @@
 % Octave Two Script
 % Title			      : Paginas de un libro
-% Description		      :Script para graficar una funcion 
+% Description		  :Script para graficar una funcion 
 % Authors		      :Diego Romero Antonio, Magali Valencia Clemente, Alexander Bradley Landa Laureano
 % Date			      :20211013
 % Version		      :1
@@ -19,7 +19,6 @@ X='29.9: 0.001: 29.9';
 % Valor de la funcion 
 function = (x,y);
 function =(x-21,9).(y-27,38);
-disp ( " Valor de la funcion " )
 
 % Funcion a plotear
 f(x)=((X-4).(600/Y - 5));
@@ -35,3 +34,8 @@ X= -21.9: 0.001: 21.9;
 Y= X.^2;
 plot (X, Y, 'r', 'linewidth',2)
 
+% Etiqueta para x
+ xlabel ([ ' Min h = '  num2str (resto)]);
+ 
+% Etiqueta para y
+ ylabel ([ ' Min h = '  num2str ( Fh (resto))]);
