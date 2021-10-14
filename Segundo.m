@@ -32,7 +32,7 @@ title (Funcion minimo material)
 xlabel (Valor de x)
 
 %Etiqueta para y
-xlabel()
+xlabel (Valor de y)
 
 clc
 clear
