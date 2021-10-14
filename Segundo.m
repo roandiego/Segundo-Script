@@ -29,6 +29,7 @@ plot(x,y);
 %Titulo 
 title (Funcion minimo material)
 %Etiqueta para x
-xlabel()
+xlabel (Valor de x)
 
 %Etiqueta para y
+xlabel()
