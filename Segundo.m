@@ -25,6 +25,7 @@ disp ( " Valor de la funcion " )
 f(x)=((X-4).(600/Y - 5));
 
 % Funcion para determinar el valor maximo
+R = Máxx – Mínx
 
 %Titulo 
 clc
