@@ -19,13 +19,10 @@ x =' ∞ : ∞';
 %Valor de la funcion 
 f(x,y);
 f(x-21,9).(y-27,38);
-plot f(x,y);
 
 %Titulo 
 clc
 clear
-% titulo
-
 title (['paginas del libro ']);
 X= -21.9: 0.001: 21.9;
 Y= X.^2;
